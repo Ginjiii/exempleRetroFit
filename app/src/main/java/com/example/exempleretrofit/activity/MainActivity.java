@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     // TODO - insert your themoviedb.org API KEY here
-    private final static String API_KEY = "";
+    private final static String API_KEY = "f934605bf6457eb7f360d6138d9fba05";
 
 
     @Override
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.movies_recycler_view);
+        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         ApiInterface apiService =
